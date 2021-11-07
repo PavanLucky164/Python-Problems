@@ -11,7 +11,7 @@ def sums_list(nums_list):
     new_list=list()
     sum=0
     for i in range(list_length-1):
-        sum=nums_list[i]+nums_list[i+1]
+        sum=nums_list[i]+nums_list[i+2]
         new_list.append(sum)
     print(new_list)
     nums_list=new_list
